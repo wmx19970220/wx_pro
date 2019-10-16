@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/willon/main",
+    "pages/praise/main",
+    "pages/counter/main"
+  ],
+  "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#fff"
+    },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "热映",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    }, {
+      "text": "待映",
+      "pagePath": "pages/willon/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png",
+      "navigationBarTitleText": "待映"
+    },{
+      "text":"口碑",
+      "pagePath": "pages/praise/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    }],
+
+    "items": [{
+      "name": "热映",
+      "pagePath": "pages/index/main",
+      "icon": "static/tabs/home.png",
+      "activeIcon": "static/tabs/home-active.png"
+    }, {
+      "name": "待映",
+      "pagePath": "pages/willon/main",
+      "icon": "static/tabs/orders.png",
+      "activeIcon": "static/tabs/orders-active.png"
+    },{
+      "name": "口碑",
+      "pagePath": "pages/praise/main",
+      "icon": "static/tabs/orders.png",
+      "activeIcon": "static/tabs/orders-active.png"
+    }],
+    "position": "bottom"
+  }
+}
